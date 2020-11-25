@@ -1,5 +1,5 @@
 # Electoral_College
-Infographic of the inequity of the Electoral College
+Infographic representing relative vote weight by state
 
 Created with Microsoft Excel
 
