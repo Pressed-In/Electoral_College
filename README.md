@@ -11,7 +11,13 @@ Sources:
 
 Under construction
 
+## Creating Visualization
 
+Under construction
+
+
+
+## Infographic
 
 Infographic:
 ![Infographic](https://raw.githubusercontent.com/Pressed-In/Electoral_College/main/electoral_weight_viz.png)
