@@ -104,26 +104,26 @@ Now we can really get going on some styling 8)
 Let's list the changes we want to make in order to have a nice & clean visualization
 
 1. Decide a theme
-  * I settled on night-mode
-  * Requires (eventually) removing gridlines & filling a large portion of the sheet with black
+   * I settled on night-mode
+   * Requires (eventually) removing gridlines & filling a large portion of the sheet with black
 2. Style the entire layout
-  * Insert a nice title
-    * Big text, little text, page break
-    * Utilize "Center Across Selection" and different font sizes
-  * Resize charts and move them around to your liking
-    * Holding 'alt' while dragging images snaps them to grid. This is a styling best-friend!
+   * Insert a nice title
+     * Big text, little text, page break
+     * Utilize "Center Across Selection" and different font sizes
+   * Resize charts and move them around to your liking
+     * Holding 'alt' while dragging images snaps them to grid. This is a styling best-friend!
 3. Style the map
-  * Change color direction (from lightest being the minimum and darkest being the maximum to lightest being the maximum and darkest being the minimum)
-  * Add state borders (black) and map visual border (white)
-  * Move legend to bottom
-  * Delete map title
-  * Add state abbreviation data labels
+   * Change color direction (from lightest being the minimum and darkest being the maximum to lightest being the maximum and darkest being the minimum)
+   * Add state borders (black) and map visual border (white)
+   * Move legend to bottom
+   * Delete map title
+   * Add state abbreviation data labels
 4. Style the bar charts
-  * Alter titles
-  * Apply styling (black background, white text & highlights)
-  * Apply same scale to each (0 to 550,000)
-  * Alter bar width spacing
-  * Add number data labels
+   * Alter titles
+   * Apply styling (black background, white text & highlights)
+   * Apply same scale to each (0 to 550,000)
+   * Alter bar width spacing
+   * Add number data labels
 
 Most, if not all of the chart styling can be accomplished by right-clicking the chart and cycling through the various formatting options. Perhaps I will add that in or make a video about it someday, but it would be a lot of work and a many screenshots for what is really a rather quick process :P
 
