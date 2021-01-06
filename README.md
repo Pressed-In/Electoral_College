@@ -41,9 +41,12 @@ Thankfully that is an easy fix, as we can navigate to the "Transform" tab, and h
 
 ![pic_11](https://raw.githubusercontent.com/Pressed-In/Electoral_College/main/Project_Pics/pic_11_b.png)
 
+---------------------
 
+Our main table will be "voters_per_state" so I move it to the front, and we begin the process of data table joining in Excel. See: INDEX(MATCH())
 
-To remedy this, we can use Power Query's "User First Row as Header's" button
+We will need to add the state abbreviation from the "state_lookup" table
+
 
 
 
