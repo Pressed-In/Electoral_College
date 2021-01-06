@@ -99,7 +99,7 @@ For each table, select only & both the "st" and "voters per vote" columns, then 
 
 ![pic_20](https://raw.githubusercontent.com/Pressed-In/Electoral_College/main/Project_Pics/pic_21.png)
 
-Now we can really get going on some styling 8)
+Now we can really get going on some styling B)
 
 Let's list the changes we want to make in order to have a nice & clean visualization
 
