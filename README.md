@@ -13,6 +13,12 @@ Sources:<br/>
 
 Under construction
 
+Test pic 1:
+![test1](https://raw.githubusercontent.com/Pressed-In/Electoral_College/main/Project_Pics/pic_1_b.png)<br/>
+
+Test pic 2:
+![test2](https://raw.githubusercontent.com/Pressed-In/Electoral_College/main/Project_Pics/pic_1_nb.png)<br/>
+
 ## Creating Visualization
 
 Under construction
