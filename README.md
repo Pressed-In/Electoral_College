@@ -11,13 +11,25 @@ Sources:<br/>
 
 ## Obtaining and Manipulating Data
 
-Under construction
+Under construction*
 
-Test pic 1:<br/>
-![test1](https://raw.githubusercontent.com/Pressed-In/Electoral_College/main/Project_Pics/pic_1_b.png)<br/>
+----------------
 
-Test pic 2:<br/>
-![test2](https://raw.githubusercontent.com/Pressed-In/Electoral_College/main/Project_Pics/pic_1_nb.png)<br/>
+Step 1: Getting the data from the web!
+
+I've already found the necessary websites, so all that's left to do is get the information that they hold into our Excel file. When attempting to get data from the web, I always like to start out with Excel's nice Get Data --> From Other Sources --> From Web:
+
+![pic_1](https://raw.githubusercontent.com/Pressed-In/Electoral_College/main/Project_Pics/pic_1_b.png)
+
+Simply (paste in the website name)[https://raw.githubusercontent.com/Pressed-In/Electoral_College/main/Project_Pics/pic_2_b.png], hit okay, and you should be met with this window:
+
+![pic_3](https://raw.githubusercontent.com/Pressed-In/Electoral_College/main/Project_Pics/pic_3_b.png)
+
+It looks like Table 0 is what we want, so that's what we select. It's good practice to check out your query in the query editor, so while this pull is simple and we could simply hit "Load" from here, let's instead hit "Transform Data" and open up that query editor:
+
+![pic_4](https://github.com/Pressed-In/Electoral_College/blob/main/Project_Pics/pic_4_b.png)
+
+
 
 ## Creating Visualization
 
