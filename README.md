@@ -13,7 +13,7 @@ Sources:<br/>
 
 Step 1: Getting the data from the web!
 
-I've already found the necessary websites, so all that's left to do is get the information that they hold into our Excel file. When attempting to get data from the web, I always like to start out with Excel's nice Get Data --> From Other Sources --> From Web:
+I've already gathered the necessary websites, so all that's left to do is get the information that they hold into our Excel file. When attempting to get data from the web, I always like to start out with Excel's nice Get Data --> From Other Sources --> From Web:
 
 ![pic_1](https://raw.githubusercontent.com/Pressed-In/Electoral_College/main/Project_Pics/pic_1_b.png)
 
