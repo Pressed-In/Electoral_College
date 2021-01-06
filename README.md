@@ -21,7 +21,7 @@ I've already found the necessary websites, so all that's left to do is get the i
 
 ![pic_1](https://raw.githubusercontent.com/Pressed-In/Electoral_College/main/Project_Pics/pic_1_b.png)
 
-Simply (paste in the website name)[https://raw.githubusercontent.com/Pressed-In/Electoral_College/main/Project_Pics/pic_2_b.png], hit okay, and you should be met with this window:
+Simply [paste in the website name](https://raw.githubusercontent.com/Pressed-In/Electoral_College/main/Project_Pics/pic_2_b.png), hit okay, and you should be met with this window:
 
 ![pic_3](https://raw.githubusercontent.com/Pressed-In/Electoral_College/main/Project_Pics/pic_3_b.png)
 
