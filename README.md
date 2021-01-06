@@ -47,9 +47,21 @@ Our main table will be "voters_per_state" so I move it to the front, and we begi
 
 We will need to add the state abbreviation from the "state_lookup" table (useful for visualization) as well as the number of electoral votes from the "votes_per_state" table. We start by inserting 2 new columns, "st" and "votes" (or whatever you'd like to call them). It is good practice to style added columns a different color from the main table:
 
+![pict_12](https://raw.githubusercontent.com/Pressed-In/Electoral_College/main/Project_Pics/pic_12.png)
 
+Now it's time for an index(match()), one of my all-time favorite Excel tools :). And since all of our data is currently in table format, we don't need to worry about building our formulae with explicit cell references, we can simply use table references.
 
+I'll spare you the details of INDEX(MATCH()) in this post by stating the general layout for almost any INDEX(MATCH()):
 
+`=INDEX(return_range, MATCH(lookup_value, lookup_range, 0))`
+
+Where return_range is the range of data we want added to our table (separate table from original table)
+Where lookup_value is the value of the first row we want to use as a lookup (in our original table)
+Where lookup_range is the range of data where Excel will find the lookup_value's from our original table (separate table from original table)
+
+And you can see the formulae has appropriately incremented itself and accurately populated the entire column with our desired state abbreviations. Yay!
+
+![pic_13](https://raw.githubusercontent.com/Pressed-In/Electoral_College/main/Project_Pics/pic_13.png)
 
 
 ## Creating Visualization
