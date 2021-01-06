@@ -45,7 +45,9 @@ Thankfully that is an easy fix, as we can navigate to the "Transform" tab, and h
 
 Our main table will be "voters_per_state" so I move it to the front, and we begin the process of data table joining in Excel. See: INDEX(MATCH())
 
-We will need to add the state abbreviation from the "state_lookup" table
+We will need to add the state abbreviation from the "state_lookup" table (useful for visualization) as well as the number of electoral votes from the "votes_per_state" table. We start by inserting 2 new columns, "st" and "votes" (or whatever you'd like to call them). It is good practice to style added columns a different color from the main table:
+
+
 
 
 
