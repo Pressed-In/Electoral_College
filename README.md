@@ -11,8 +11,6 @@ Sources:<br/>
 
 ## Obtaining and Manipulating Data
 
-----------------
-
 Step 1: Getting the data from the web!
 
 I've already found the necessary websites, so all that's left to do is get the information that they hold into our Excel file. When attempting to get data from the web, I always like to start out with Excel's nice Get Data --> From Other Sources --> From Web:
