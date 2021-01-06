@@ -73,16 +73,61 @@ Now let's calculate how many registered voters there are per electoral vote in e
 
 You can see we have all the data that we need, and highlighting the "voters per vote" column shows some interesting statistics in the status bar towards the bottom (discrepancy of over 400,000 between max & min!).
 
-
-
-
-
-
-
-
 ## Creating Visualization
 
-Under construction
+Now it's time to create our visualization, and I'm almost positive it will be an easier process than you think.
+
+Our first step will be gathering the 3 visuals (map, top 5, bottom 5)
+
+Let's begin by selecting anywhere in our voters_per_state final table, then navigate to Insert --> Maps --> Filled Map, and give it a click:
+
+![pic_16](https://raw.githubusercontent.com/Pressed-In/Electoral_College/main/Project_Pics/pic_16.png)
+
+Holy moly, Excel is smart! ALMOST smart enough. Right now it's coloring each state according to it's total electoral college votes, and we want it to color each state according to our new "voters per vote" statistic.
+
+To remedy this, let's right-click on the visual, click "Select Data...", and simply remove "votes" from the chart's Legend Entries:
+
+![pic_18](https://raw.githubusercontent.com/Pressed-In/Electoral_College/main/Project_Pics/pic_18.png)
+
+I then "cut" the visual away, and paste it into a new sheet (out final visualization sheet, titled "visualization"). I also create 2 more new sheets (top_5_influential, bottom_5_influential), where I paste the top 5 most influential and bottom 5 most influential states according to our new "voters per vote" statistic:
+
+![pic_17](https://raw.githubusercontent.com/Pressed-In/Electoral_College/main/Project_Pics/pic_17.png)
+
+Now it is time to insert our 2 bar charts for the top 5 and bottom 5 most influential states. 
+
+For each table, select only & both the "st" and "voters per vote" columns, then navigate to [Insert --> Recommended Charts --> All Charts --> Bar --> Clustered Bar](https://raw.githubusercontent.com/Pressed-In/Electoral_College/main/Project_Pics/pic_19.png) (or get to Clustered Bar however you want). Cut & paste each bar chart into the "visualization" sheet:
+
+![pic_20](https://raw.githubusercontent.com/Pressed-In/Electoral_College/main/Project_Pics/pic_21.png)
+
+Now we can really get going on some styling 8)
+
+Let's list the changes we want to make in order to have a nice & clean visualization
+
+1. Decide a theme
+  * I settled on night-mode
+  * Requires (eventually) removing gridlines & filling a large portion of the sheet with black
+2. Style the entire layout
+  * Insert a nice title
+    * Big text, little text, page break
+    * Utilize "Center Across Selection" and different font sizes
+  * Resize charts and move them around to your liking
+    * Holding 'alt' while dragging images snaps them to grid. This is a styling best-friend!
+3. Style the map
+  * Change color direction (from lightest being the minimum and darkest being the maximum to lightest being the maximum and darkest being the minimum)
+  * Add state borders (black) and map visual border (white)
+  * Move legend to bottom
+  * Delete map title
+  * Add state abbreviation data labels
+4. Style the bar charts
+  * Alter titles
+  * Apply styling (black background, white text & highlights)
+  * Apply same scale to each (0 to 550,000)
+  * Alter bar width spacing
+  * Add number data labels
+
+Most, if not all of the chart styling can be accomplished by right-clicking the chart and cycling through the various formatting options. Perhaps I will add that in or make a video about it someday, but it would be a lot of work and a many screenshots for what is really a rather quick process :P
+
+Below is the result of my styled infographic!
 
 ## Infographic
 
