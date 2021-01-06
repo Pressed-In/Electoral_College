@@ -55,13 +55,29 @@ I'll spare you the details of INDEX(MATCH()) in this post by stating the general
 
 `=INDEX(return_range, MATCH(lookup_value, lookup_range, 0))`
 
-Where return_range is the range of data we want added to our table (separate table from original table)
-Where lookup_value is the value of the first row we want to use as a lookup (in our original table)
+Where return_range is the range of data we want added to our table (separate table from original table)<br/>
+Where lookup_value is the value of the first row we want to use as a lookup (in our original table)<br/>
 Where lookup_range is the range of data where Excel will find the lookup_value's from our original table (separate table from original table)
 
 And you can see the formulae has appropriately incremented itself and accurately populated the entire column with our desired state abbreviations. Yay!
 
 ![pic_13](https://raw.githubusercontent.com/Pressed-In/Electoral_College/main/Project_Pics/pic_13.png)
+
+We repeat the process to obtain total votes per state, and see our formula once again populated the entire column correctly:
+
+![pic_14](https://raw.githubusercontent.com/Pressed-In/Electoral_College/main/Project_Pics/pic_14.png)
+
+Now let's calculate how many registered voters there are per electoral vote in each state. We add a new column "voters per vote", and populate it with basic division "Number of Registered Voters" / "votes". I clean up some number formats, and sort low-to-high (most influential to least influential):
+
+![pic_15](https://raw.githubusercontent.com/Pressed-In/Electoral_College/main/Project_Pics/pic_15.png)
+
+You can see we have all the data that we need, and highlighting the "voters per vote" column shows some interesting statistics in the status bar towards the bottom (discrepancy of over 400,000 between max & min!).
+
+
+
+
+
+
 
 
 ## Creating Visualization
