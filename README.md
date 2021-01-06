@@ -29,6 +29,20 @@ It looks like Table 0 is what we want, so that's what we select. It's good pract
 
 ![pic_4](https://github.com/Pressed-In/Electoral_College/blob/main/Project_Pics/pic_4_b.png)
 
+Everything looks good, so let's hit that "Close and Load" button, and see that we've successfully loaded voter data for all 50 states:
+
+![pic_5](https://raw.githubusercontent.com/Pressed-In/Electoral_College/main/Project_Pics/pic_5_b.png)
+
+Awesome!
+
+Let's get data from the web from our 2nd website, [pasting in the appropriate URL](https://raw.githubusercontent.com/Pressed-In/Electoral_College/main/Project_Pics/pic_6_b.png). This time, it looks like [Table 1 is what we need](https://raw.githubusercontent.com/Pressed-In/Electoral_College/main/Project_Pics/pic_7_b.png), and we repeat the same "Transform Data" process as with the first data table.
+
+Onto the 3rd and final [website](https://raw.githubusercontent.com/Pressed-In/Electoral_College/main/Project_Pics/pic_8_b.png), and we're met with something new. Our headers are included in the data themselves:
+
+![pic_8](https://raw.githubusercontent.com/Pressed-In/Electoral_College/main/Project_Pics/pic_9_b.png)
+
+
+
 
 
 ## Creating Visualization
