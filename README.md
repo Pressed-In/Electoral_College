@@ -5,7 +5,9 @@ Infographic representing relative vote weight by state (calculated by registered
 Steps for re-creation are obtaining data (1) and creating visualization (2)
 
 Sources:
-[Voters per State](https://worldpopulationreview.com/state-rankings/number-of-registered-voters-by-state)
+[Voters per state](https://worldpopulationreview.com/state-rankings/number-of-registered-voters-by-state)
+[Electoral votes per state](https://state.1keydata.com/state-electoral-votes.php)
+[State lookup table](https://www.extendoffice.com/documents/excel/3332-excel-convert-state-name-to-abbreviation.html)
 
 ## Obtaining and Manipulating Data
 
@@ -17,5 +19,4 @@ Under construction
 
 ## Infographic
 
-Infographic:
 ![Infographic](https://raw.githubusercontent.com/Pressed-In/Electoral_College/main/electoral_weight_viz.png)
