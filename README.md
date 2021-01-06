@@ -37,11 +37,17 @@ Awesome!
 
 Let's get data from the web from our 2nd website, [pasting in the appropriate URL](https://raw.githubusercontent.com/Pressed-In/Electoral_College/main/Project_Pics/pic_6_b.png). This time, it looks like [Table 1 is what we need](https://raw.githubusercontent.com/Pressed-In/Electoral_College/main/Project_Pics/pic_7_b.png), and we repeat the same "Transform Data" process as with the first data table.
 
-Onto the 3rd and final [website](https://raw.githubusercontent.com/Pressed-In/Electoral_College/main/Project_Pics/pic_8_b.png), and we're met with something new. Our headers are included in the data themselves:
+Onto the 3rd and final [website](https://raw.githubusercontent.com/Pressed-In/Electoral_College/main/Project_Pics/pic_8_b.png), and now it looks like [Table 0 is what we want](https://raw.githubusercontent.com/Pressed-In/Electoral_College/main/Project_Pics/pic_9_b.png). Let's hit "Transform Data", and see that we're met with something new. What should be our table headers are included as a row of data!
 
-![pic_8](https://raw.githubusercontent.com/Pressed-In/Electoral_College/main/Project_Pics/pic_9_b.png)
+![pic_10](https://raw.githubusercontent.com/Pressed-In/Electoral_College/main/Project_Pics/pic_10_b.png)
+
+Thankfully that is an easy fix, as we can navigate to the "Transform" tab, and hit "Use First Row as Header's". Navigate back to the "Home" tab, Close & Load, and we have all of the data we need nicely loaded in our Excel file:
+
+![pic_11](https://raw.githubusercontent.com/Pressed-In/Electoral_College/main/Project_Pics/pic_11_b.png)
 
 
+
+To remedy this, we can use Power Query's "User First Row as Header's" button
 
 
 
