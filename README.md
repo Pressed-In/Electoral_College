@@ -13,10 +13,10 @@ Sources:<br/>
 
 Under construction
 
-Test pic 1:
+Test pic 1:<br/>
 ![test1](https://raw.githubusercontent.com/Pressed-In/Electoral_College/main/Project_Pics/pic_1_b.png)<br/>
 
-Test pic 2:
+Test pic 2:<br/>
 ![test2](https://raw.githubusercontent.com/Pressed-In/Electoral_College/main/Project_Pics/pic_1_nb.png)<br/>
 
 ## Creating Visualization
