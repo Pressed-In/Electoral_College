@@ -11,8 +11,6 @@ Sources:<br/>
 
 ## Obtaining and Manipulating Data
 
-Under construction*
-
 ----------------
 
 Step 1: Getting the data from the web!
