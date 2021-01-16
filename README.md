@@ -2,6 +2,8 @@
 
 Infographic representing relative vote weight by state (calculated by registered voters / electoral votes). Created with Microsoft Excel
 
+Zoom to visual: [click here](#Infographic)
+
 Steps for re-creation are obtaining data (1) and creating visualization (2)
 
 Sources:<br/>
